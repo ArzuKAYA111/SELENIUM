@@ -34,9 +34,9 @@ public class Redfin {
 		}
 		
 		Thread.sleep(30);
-
 		driver.close();
 
 	}
+	
 
 }

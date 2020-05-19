@@ -1,0 +1,162 @@
+[1589325419.699][INFO]: Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 20798
+[1589325419.700][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1589325420.573][INFO]: [43b61b97caa3d5bfd800adf0f0e5ba15] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1589325420.576][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1589325420.578][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1589325420.589][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\beyha\AppData\Local\Temp\scoped_dir51720_555105399\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\beyha\AppData\Local\Temp\scoped_dir51720_2121823930" data:,
+[1589325421.490][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1589325423.505][INFO]: [43b61b97caa3d5bfd800adf0f0e5ba15] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "81.0.4044.138",
+      "chrome": {
+         "chromedriverVersion": "81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776})",
+         "userDataDir": "C:\\Users\\beyha\\AppData\\Local\\Temp\\scoped_dir51720_2121823930"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:57822"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "43b61b97caa3d5bfd800adf0f0e5ba15"
+}
+[1589325423.608][INFO]: [43b61b97caa3d5bfd800adf0f0e5ba15] COMMAND Navigate {
+   "url": "https://the-internet.herokuapp.com/"
+}
+[1589325423.608][INFO]: Waiting for pending navigations...
+[1589325423.611][INFO]: Done waiting for pending navigations. Status: ok
+[1589325423.941][INFO]: Waiting for pending navigations...
+[1589325424.052][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589325424.154][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589325424.255][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589325424.490][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589325424.664][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589325424.794][INFO]: Done waiting for pending navigations. Status: ok
+[1589325424.794][INFO]: [43b61b97caa3d5bfd800adf0f0e5ba15] RESPONSE Navigate
+[1589325424.812][INFO]: [43b61b97caa3d5bfd800adf0f0e5ba15] COMMAND SetTimeouts {
+   "implicit": 3000
+}
+[1589325424.812][INFO]: [43b61b97caa3d5bfd800adf0f0e5ba15] RESPONSE SetTimeouts
+[1589325424.823][INFO]: [43b61b97caa3d5bfd800adf0f0e5ba15] COMMAND FindElement {
+   "using": "link text",
+   "value": "Dynamic Controls"
+}
+[1589325424.823][INFO]: Waiting for pending navigations...
+[1589325424.824][INFO]: Done waiting for pending navigations. Status: ok
+[1589325424.865][INFO]: Waiting for pending navigations...
+[1589325424.870][INFO]: Done waiting for pending navigations. Status: ok
+[1589325424.870][INFO]: [43b61b97caa3d5bfd800adf0f0e5ba15] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "752c01c9-c982-4f28-b930-a45ad7bcbbfe"
+}
+[1589325424.881][INFO]: [43b61b97caa3d5bfd800adf0f0e5ba15] COMMAND ClickElement {
+   "id": "752c01c9-c982-4f28-b930-a45ad7bcbbfe"
+}
+[1589325424.881][INFO]: Waiting for pending navigations...
+[1589325424.882][INFO]: Done waiting for pending navigations. Status: ok
+[1589325424.970][INFO]: Waiting for pending navigations...
+[1589325425.240][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589325425.247][INFO]: Done waiting for pending navigations. Status: ok
+[1589325425.247][INFO]: [43b61b97caa3d5bfd800adf0f0e5ba15] RESPONSE ClickElement
+[1589325425.262][INFO]: [43b61b97caa3d5bfd800adf0f0e5ba15] COMMAND FindElement {
+   "using": "css selector",
+   "value": "div#chckbox"
+}
+[1589325425.263][INFO]: Waiting for pending navigations...
+[1589325425.335][INFO]: Done waiting for pending navigations. Status: ok
+[1589325428.376][INFO]: Waiting for pending navigations...
+[1589325428.379][INFO]: Done waiting for pending navigations. Status: ok
+[1589325428.380][INFO]: [43b61b97caa3d5bfd800adf0f0e5ba15] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"div#chckbox"}
+  (Session info: chrome=81.0.4044.138)

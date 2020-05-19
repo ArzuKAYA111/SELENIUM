@@ -26,16 +26,9 @@ public class AmazonPage {
 	Thread.sleep(300);
 	
 	driver.close();
-	
 
 	
-	
-	
-	
-	
-	
-	
-	
 	}
+	
 
 }
