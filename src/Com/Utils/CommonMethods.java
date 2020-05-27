@@ -1,17 +1,14 @@
 package Com.Utils;
 
-import java.io.IOException;
+
 import java.util.List;
 import java.util.Set;
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchFrameException;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.UnexpectedTagNameException;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -375,6 +372,25 @@ try {
 
 	
 	}
-
+	
+	/**
+	 * this method will select a date from the calendar
+	 * 
+	 * @param element
+	 * @param text
+	 */
+	
+	public static void selectCalendarDate(List<WebElement> element, String text) {
+		
+		for( WebElement pickDate: element ) {
+			if (pickDate.isEnabled()) {// can be element clickable but not inabled so we add this condition
+			     if (pickDate.getText().equals(text)) {
+			    	 pickDate.click();
+						break;  		 
+		   }
+		}
+		
+	}
+	}
 }
 
